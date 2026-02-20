@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.XR.Interaction.Toolkit;
 
 public class MenuButton : MonoBehaviour
 {
@@ -8,14 +7,16 @@ public class MenuButton : MonoBehaviour
 
     public void OnPressed()
     {
+        Debug.Log("Pressed: " + buttonType);
+
         switch (buttonType)
         {
             case ButtonType.Start:
-                SceneLoader.Instance.LoadGame();
+                SceneLoader.Instance.LoadGame(false);
                 break;
 
             case ButtonType.Tutorial:
-                SceneLoader.Instance.LoadGameWithTutorial();
+                SceneLoader.Instance.LoadGame(true);
                 break;
 
             case ButtonType.Quit:
