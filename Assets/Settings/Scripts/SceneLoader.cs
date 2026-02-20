@@ -7,16 +7,15 @@ public class SceneLoader : MonoBehaviour
 
     private void Awake()
     {
-        Instance = this;
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
     }
 
-    public void LoadGame()
+    public void LoadGame(bool tutorial)
     {
-        SceneManager.LoadScene("MainGame");
-    }
-
-    public void LoadGameWithTutorial()
-    {
+        PlayerPrefs.SetInt("PlayTutorial", tutorial ? 1 : 0);
         SceneManager.LoadScene("MainGame");
     }
 }
