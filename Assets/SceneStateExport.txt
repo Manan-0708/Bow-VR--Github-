@@ -1,0 +1,810 @@
+===== UNITY SCENE STATE EXPORT =====
+Scene Name: Basic Main Menu
+Scene Path: Assets/Scenes/Basic Main Menu.unity
+------------------------------------
+GameObject: Directional Light
+  Active: True
+  Position: (0.00, 3.00, 0.00)
+  Rotation: (50.00, 330.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - Light
+    - UniversalAdditionalLightData
+
+GameObject: XR Origin (VR) 1 1
+  Active: True
+  Position: (0.17, 0.00, -1.06)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - XROrigin
+    - InputActionManager
+    - CharacterController
+
+    GameObject: Camera Offset
+      Active: True
+      Position: (0.00, 1.12, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+
+        GameObject: Main Camera
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - Camera
+            - AudioListener
+            - TrackedPoseDriver
+            - UniversalAdditionalCameraData
+
+    GameObject: Left Hand
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - ControllerInputActionManager
+        - TrackedPoseDriver
+        - SphereCollider
+        - XRRayInteractor
+        - LineRenderer
+        - XRInteractorLineVisual
+        - XRDeviceSimulatorUI
+        - XRDeviceSimulatorControllerUI
+
+        GameObject: LeftHandPrefab
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 80.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - Animator
+            - HandAnimation
+            - HapticSender
+            - HapticSender
+
+            GameObject: hands:hands_geom
+              Active: True
+              Position: (0.00, 0.00, 0.00)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:Lhand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (0.00, 0.00, 0.00)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+                    - SkinnedMeshRenderer
+
+            GameObject: hands:l_hand_world
+              Active: True
+              Position: (-0.02, 0.05, -0.07)
+              Rotation: (343.45, 141.98, 256.24)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:b_l_hand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (337.87, 114.23, 330.21)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+
+                    GameObject: hands:b_l_grip
+                      Active: True
+                      Position: (0.07, -0.01, 0.02)
+                      Rotation: (18.60, 246.35, 328.02)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_l_hand_ignore
+                      Active: True
+                      Position: (0.14, 0.00, 0.00)
+                      Rotation: (26.25, 0.00, 0.00)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_l_index1
+                      Active: True
+                      Position: (0.09, -0.04, -0.01)
+                      Rotation: (285.12, 106.62, 61.11)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_index2
+                          Active: True
+                          Position: (-0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 338.53)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_index3
+                              Active: True
+                              Position: (-0.02, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 353.17)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_index_ignore
+                                  Active: True
+                                  Position: (-0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_l_middle1
+                      Active: True
+                      Position: (0.09, -0.01, -0.01)
+                      Rotation: (279.60, 18.78, 151.91)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_middle2
+                          Active: True
+                          Position: (-0.05, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 332.75)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_middle3
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 352.46)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_middle_ignore
+                                  Active: True
+                                  Position: (-0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_l_pinky0
+                      Active: True
+                      Position: (0.03, 0.02, 0.01)
+                      Rotation: (306.22, 337.43, 22.88)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_pinky1
+                          Active: True
+                          Position: (0.05, 0.00, 0.00)
+                          Rotation: (358.98, 357.94, 166.52)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_pinky2
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 341.05)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_pinky3
+                                  Active: True
+                                  Position: (-0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 354.61)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                                    GameObject: hands:b_l_pinky_ignore
+                                      Active: True
+                                      Position: (-0.02, 0.00, 0.00)
+                                      Rotation: (0.00, 0.00, 0.00)
+                                      Scale: (1.00, 1.00, 1.00)
+                                      Components:
+                                        - Transform
+
+                    GameObject: hands:b_l_ring1
+                      Active: True
+                      Position: (0.09, 0.01, 0.00)
+                      Rotation: (290.85, 338.48, 190.55)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_ring2
+                          Active: True
+                          Position: (-0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 336.59)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_ring3
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 350.37)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_ring_ignore
+                                  Active: True
+                                  Position: (-0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_l_thumb1
+                      Active: True
+                      Position: (0.03, -0.04, 0.02)
+                      Rotation: (9.51, 156.90, 27.23)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_l_thumb2
+                          Active: True
+                          Position: (-0.03, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 343.63)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_l_thumb3
+                              Active: True
+                              Position: (-0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 1.00)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_l_thumb_ignore
+                                  Active: True
+                                  Position: (-0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+    GameObject: Right Hand
+      Active: True
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - ControllerInputActionManager
+        - TrackedPoseDriver
+        - SphereCollider
+        - XRRayInteractor
+        - LineRenderer
+        - XRInteractorLineVisual
+
+        GameObject: RightHandPrefab
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 280.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - Animator
+            - HandAnimation
+            - HapticSender
+            - HapticSender
+
+            GameObject: hands:hands_geom
+              Active: True
+              Position: (0.00, 0.00, 0.00)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:Rhand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (0.00, 0.00, 0.00)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+                    - SkinnedMeshRenderer
+
+            GameObject: hands:r_hand_world
+              Active: True
+              Position: (0.02, 0.05, -0.07)
+              Rotation: (342.82, 219.09, 102.91)
+              Scale: (1.00, 1.00, 1.00)
+              Components:
+                - Transform
+
+                GameObject: hands:b_r_hand
+                  Active: True
+                  Position: (0.00, 0.00, 0.00)
+                  Rotation: (22.13, 65.77, 150.21)
+                  Scale: (1.00, 1.00, 1.00)
+                  Components:
+                    - Transform
+
+                    GameObject: hands:b_r_grip
+                      Active: True
+                      Position: (-0.07, 0.02, -0.02)
+                      Rotation: (343.69, 67.62, 212.21)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_r_hand_ignore
+                      Active: True
+                      Position: (-0.14, 0.00, 0.00)
+                      Rotation: (26.25, 0.00, 0.00)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                    GameObject: hands:b_r_index1
+                      Active: True
+                      Position: (-0.09, 0.04, 0.01)
+                      Rotation: (285.12, 106.62, 61.11)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_index2
+                          Active: True
+                          Position: (0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 338.53)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_index3
+                              Active: True
+                              Position: (0.02, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 353.17)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_index_ignore
+                                  Active: True
+                                  Position: (0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_r_middle1
+                      Active: True
+                      Position: (-0.09, 0.01, 0.01)
+                      Rotation: (279.60, 18.78, 151.91)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_middle2
+                          Active: True
+                          Position: (0.05, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 332.75)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_middle3
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 352.46)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_middle_ignore
+                                  Active: True
+                                  Position: (0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_r_pinky0
+                      Active: True
+                      Position: (-0.03, -0.02, -0.01)
+                      Rotation: (306.22, 337.43, 22.88)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_pinky1
+                          Active: True
+                          Position: (-0.05, 0.00, 0.00)
+                          Rotation: (358.98, 357.94, 166.52)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_pinky2
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 341.05)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_pinky3
+                                  Active: True
+                                  Position: (0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 354.61)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                                    GameObject: hands:b_r_pinky_ignore
+                                      Active: True
+                                      Position: (0.02, 0.00, 0.00)
+                                      Rotation: (0.00, 0.00, 0.00)
+                                      Scale: (1.00, 1.00, 1.00)
+                                      Components:
+                                        - Transform
+
+                    GameObject: hands:b_r_ring1
+                      Active: True
+                      Position: (-0.09, -0.01, 0.00)
+                      Rotation: (290.85, 338.48, 190.55)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_ring2
+                          Active: True
+                          Position: (0.04, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 336.59)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_ring3
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 350.37)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_ring_ignore
+                                  Active: True
+                                  Position: (0.02, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+                    GameObject: hands:b_r_thumb1
+                      Active: True
+                      Position: (-0.03, 0.04, -0.02)
+                      Rotation: (9.51, 156.90, 27.23)
+                      Scale: (1.00, 1.00, 1.00)
+                      Components:
+                        - Transform
+
+                        GameObject: hands:b_r_thumb2
+                          Active: True
+                          Position: (0.03, 0.00, 0.00)
+                          Rotation: (0.00, 0.00, 343.63)
+                          Scale: (1.00, 1.00, 1.00)
+                          Components:
+                            - Transform
+
+                            GameObject: hands:b_r_thumb3
+                              Active: True
+                              Position: (0.03, 0.00, 0.00)
+                              Rotation: (0.00, 0.00, 1.00)
+                              Scale: (1.00, 1.00, 1.00)
+                              Components:
+                                - Transform
+
+                                GameObject: hands:b_r_thumb_ignore
+                                  Active: True
+                                  Position: (0.03, 0.00, 0.00)
+                                  Rotation: (0.00, 0.00, 0.00)
+                                  Scale: (1.00, 1.00, 1.00)
+                                  Components:
+                                    - Transform
+
+        GameObject: Teleport Interactor
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - XRRayInteractor
+
+    GameObject: Locomotion
+      Active: False
+      Position: (0.00, 0.00, 0.00)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (1.00, 1.00, 1.00)
+      Components:
+        - Transform
+        - XRBodyTransformer
+        - LocomotionMediator
+
+        GameObject: Move
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - DynamicMoveProvider
+
+        GameObject: Turn
+          Active: True
+          Position: (0.00, 0.00, 0.00)
+          Rotation: (0.00, 0.00, 0.00)
+          Scale: (1.00, 1.00, 1.00)
+          Components:
+            - Transform
+            - SnapTurnProvider
+
+GameObject: EventSystem
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - EventSystem
+    - InputSystemUIInputModule
+
+GameObject: XR Interaction Manager
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - XRInteractionManager
+
+GameObject: Manager
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+    - SceneLoader
+    - AudioSource
+
+GameObject: Environment
+  Active: True
+  Position: (0.17, 0.00, -1.06)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
+    GameObject: Ground_03 (1)
+      Active: True
+      Position: (-2.72, -0.54, 2.71)
+      Rotation: (0.00, 212.59, 0.00)
+      Scale: (1.18, 1.18, 1.18)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (07)
+      Active: True
+      Position: (12.61, -1.75, 5.97)
+      Rotation: (0.00, 24.22, 0.00)
+      Scale: (2.49, 2.49, 3.97)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Ground_03 (2)
+      Active: True
+      Position: (-2.72, -0.54, 2.71)
+      Rotation: (0.00, 212.59, 0.00)
+      Scale: (1.18, 1.18, 1.18)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (15)
+      Active: True
+      Position: (-7.05, -1.75, 13.54)
+      Rotation: (0.00, 251.37, 0.00)
+      Scale: (2.49, 2.49, 3.97)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (10)
+      Active: True
+      Position: (-14.15, -0.34, -4.76)
+      Rotation: (0.00, 58.96, 0.00)
+      Scale: (3.91, 2.08, 3.07)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Mountain (11)
+      Active: True
+      Position: (7.65, -0.34, 17.64)
+      Rotation: (0.00, 58.96, 0.00)
+      Scale: (0.01, 0.01, 0.01)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+        - MeshCollider
+
+    GameObject: Yes
+      Active: True
+      Position: (-0.33, -0.09, 1.96)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (0.98, 0.98, 0.98)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+    GameObject: No
+      Active: True
+      Position: (0.58, -0.09, 1.96)
+      Rotation: (0.00, 0.00, 0.00)
+      Scale: (0.98, 0.98, 0.98)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+GameObject: MenuBoard
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
+    GameObject: box-large
+      Active: True
+      Position: (0.29, 0.76, 1.46)
+      Rotation: (0.00, 90.00, 0.00)
+      Scale: (3.14, 3.14, 3.14)
+      Components:
+        - Transform
+        - MeshFilter
+        - MeshRenderer
+
+        GameObject: StartBtn
+          Active: True
+          Position: (0.12, 0.19, 0.00)
+          Rotation: (0.00, 270.00, 0.00)
+          Scale: (-0.20, -0.05, -0.02)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+            - BoxCollider
+            - XRSimpleInteractable
+            - MenuButton
+
+            GameObject: Start
+              Active: True
+              Position: (-0.02, 0.02, 0.67)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (-0.03, -0.13, -0.32)
+              Components:
+                - RectTransform
+                - MeshRenderer
+                - TextMeshPro
+                - MeshFilter
+
+        GameObject: TutorialBtn
+          Active: True
+          Position: (0.12, 0.13, 0.00)
+          Rotation: (0.00, 270.00, 0.00)
+          Scale: (-0.20, -0.05, -0.02)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+            - BoxCollider
+            - XRSimpleInteractable
+            - MenuButton
+
+            GameObject: Tutorial
+              Active: True
+              Position: (-0.02, 0.02, 0.67)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (-0.03, -0.13, -0.32)
+              Components:
+                - RectTransform
+                - MeshRenderer
+                - TextMeshPro
+                - MeshFilter
+
+        GameObject: QuitBtn
+          Active: True
+          Position: (0.12, 0.06, 0.00)
+          Rotation: (0.00, 270.00, 0.00)
+          Scale: (-0.20, -0.05, -0.02)
+          Components:
+            - Transform
+            - MeshFilter
+            - MeshRenderer
+            - BoxCollider
+            - BoxCollider
+            - XRSimpleInteractable
+            - MenuButton
+
+            GameObject: Quit
+              Active: True
+              Position: (-0.02, 0.02, 0.67)
+              Rotation: (0.00, 0.00, 0.00)
+              Scale: (-0.03, -0.13, -0.32)
+              Components:
+                - RectTransform
+                - MeshRenderer
+                - TextMeshPro
+                - MeshFilter
+
+GameObject: StatsBoard
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
+GameObject: PlayerListBoard
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
+GameObject: NameInputBoard
+  Active: True
+  Position: (0.00, 0.00, 0.00)
+  Rotation: (0.00, 0.00, 0.00)
+  Scale: (1.00, 1.00, 1.00)
+  Components:
+    - Transform
+
