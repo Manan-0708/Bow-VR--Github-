@@ -6203,6 +6203,34 @@ PrefabInstance:
       propertyPath: triggerActionReference
       value: 
       objectReference: {fileID: 302584488}
+    - target: {fileID: 7951458158358125392, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.122863606
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951458158358125392, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.16209924
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951458158358125392, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.7985244
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951458158358125392, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95409036
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951458158358125392, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0.2963893
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951458158358125392, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.041242197
+      objectReference: {fileID: 0}
+    - target: {fileID: 7951458158358125392, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.012811829
+      objectReference: {fileID: 0}
     - target: {fileID: 8435782330996510085, guid: 20e3fb00ce2877f46a2f418386c6e519, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -12763,8 +12791,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sample text
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: d202fdb9533fe154ebfc0577c449bfb7, type: 2}
-  m_sharedMaterial: {fileID: 2079009306852802791, guid: d202fdb9533fe154ebfc0577c449bfb7, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -12859,7 +12887,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2079009306852802791, guid: d202fdb9533fe154ebfc0577c449bfb7, type: 2}
+  - {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
